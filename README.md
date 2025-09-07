@@ -11,6 +11,8 @@ The dashboard helps answer key questions such as:
 
 The project demonstrates the value of **data-driven scouting** by combining **statistical analysis** with **interactive visual exploration**.
 
+The dashboard os also accessible on the following link: https://public.tableau.com/app/profile/attila.zsoter/viz/shared/JM9D9MCHX
+
 ---
 
 ## Data Sources and Data Preparation
