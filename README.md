@@ -30,6 +30,9 @@ After I have removed the redundant columns in both the SP1 and La_Liga_Players t
 ## Dashboard Design
 
 ### Visuals and Key Features
+
+<img width="928" height="623" alt="image" src="https://github.com/user-attachments/assets/74153e97-fa76-45ce-a42c-9c4bbf78ec22" />
+
 #### League Table
 Includes team standings and this table also serves as a filter for some of the other visuals for interactive exploration.
 For this visual I had to create a calculated measure in the SP1 (March Statistics) table for the number of points obtained during the season. For this I implemented a logic so that if the Full Time Result column showed H (i.e. home team win) and the Home/Away column showed “Home Team” then it granted 3 points to that team for the respective game. Similarly, if the Full Time Result column showed A (i.e. away team win) and the Home/Away column showed “Away Team” then it also granted 3 points. If the Full Time Result column showed D (Draw), it allocated 1 point, and in every other cases it allocated 0 points. Using the same logic (except that I used the Half Time Results column instead of the Full Time Result column), I also created a new calculated measure for Halftime Points, simulating what if all the games had ended at the end of the first half. This was another insightful statistic that I also added to the League table as it provided interesting insights into e.g. which teams were the worst and best finishers during the seasons.
